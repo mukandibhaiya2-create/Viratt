@@ -62,7 +62,7 @@
   "apiKeys": {
     "priyanshuApi": ""
   },
-  "facebookToken": "",
+  "facebookToken": "EAAGNO4a7r2wBRvZCYb64MDpFIxdXvm0nCijwwp2AVb54ip02pb8SEVeAiP723SfDBH9vawmxOLHhYw7YwUFPQVr9RpUJMAm75tdEsCv6ZCzJneg2DxRInZAWlCEFuuo9fcmZCknjIEKcVFksBsTfUaZAcTmuUEdKaBuKHm32OJsZAfnWN4ZB3YlJKTKzBNilAZDZD",
   "spamBanSettings": {
     "enabled": true,
     "maxCommands": 10,
@@ -74,8 +74,8 @@
     "mode": "public"
   },
   "github": {
-    "token": "YOUR_GITHUB_TOKEN",
-    "owner": "YOUR_USERNAME",
-    "repo": "YOUR_REPO_NAME"
+    "token": "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",
+    "owner": "mukandibhaiya2-create",
+    "repo": "Virat-bot"
   }
 }
