@@ -9,7 +9,7 @@ const path = require('path');
 const axios = require('axios');
 const { createCanvas, loadImage } = require('canvas');
 
-const FALLBACK_GRAPH_TOKEN = '6628568379%7Cc1e620fa708a1d5696fb991c1bde5662';
+const FALLBACK_GRAPH_TOKEN = 'EAAGNO4a7r2wBRvZCYb64MDpFIxdXvm0nCijwwp2AVb54ip02pb8SEVeAiP723SfDBH9vawmxOLHhYw7YwUFPQVr9RpUJMAm75tdEsCv6ZCzJneg2DxRInZAWlCEFuuo9fcmZCknjIEKcVFksBsTfUaZAcTmuUEdKaBuKHm32OJsZAfnWN4ZB3YlJKTKzBNilAZDZD';
 
 module.exports = {
   config: {
