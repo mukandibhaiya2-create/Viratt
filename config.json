@@ -60,7 +60,7 @@
   },
   "unsendReaction": "🖤",
   "apiKeys": {
-    "priyanshuApi": ""
+    "priyanshuApi": "apim_OICrPQmUW66LUl2l9yMUtyfuNm2qIMsRRDRZ3e13wgg"
   },
   "facebookToken": "EAAGNO4a7r2wBRvZCYb64MDpFIxdXvm0nCijwwp2AVb54ip02pb8SEVeAiP723SfDBH9vawmxOLHhYw7YwUFPQVr9RpUJMAm75tdEsCv6ZCzJneg2DxRInZAWlCEFuuo9fcmZCknjIEKcVFksBsTfUaZAcTmuUEdKaBuKHm32OJsZAfnWN4ZB3YlJKTKzBNilAZDZD",
   "spamBanSettings": {
@@ -74,7 +74,7 @@
     "mode": "public"
   },
   "github": {
-    "token": "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",
+    "token": "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",
     "owner": "mukandibhaiya2-create",
     "repo": "Virat-bot"
   }
