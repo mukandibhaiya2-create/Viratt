@@ -1,5 +1,5 @@
 {
-  "mongoURI": "",
+  "mongoURI": "mongodb+srv://mukandibhaiya2_db_user:xL3EwJTUdFupdWkm@cluster0.nemr7dt.mongodb.net/?appName=Cluster0",
   "ownerID": "100068487501385",
   "adminIDs": [
     "100075101680239",
