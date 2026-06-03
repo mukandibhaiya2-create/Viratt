@@ -9,7 +9,7 @@
     "100068487501385",
     "SUPPORT_ID_2"
   ],
-  "adminInboxThreadID": "975702068655352",
+  "adminInboxThreadID": "1194547242795575",
   "prefix": "/",
   "fcaOptions": {
     "forceLogin": false,
@@ -25,6 +25,7 @@
     "userAgent": "Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 CrKey/1.54.250320"
   },
   "botNickname": "FB Bot",
+  "ownerName": "Virat",
   "commandEnabled": true,
   "eventEnabled": true,
   "announceImageChange": true,
@@ -37,10 +38,10 @@
   ],
   "server": {
     "enabled": true,
-    "port": 4000,
+    "port": 5000,
     "autoUptimeMonitoring": true
   },
-  "serverUrl": "http://localhost:4000",
+  "serverUrl": "http://localhost:5000",
   "spamBan": {
     "enabled": true,
     "maxCommands": 10,
@@ -71,7 +72,10 @@
   },
   "adminOnlyMode": {
     "global": false,
-    "mode": "public"
+    "mode": "admin"
+  },
+  "friendlyMode": {
+    "enabled": false
   },
   "github": {
     "token": "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",
