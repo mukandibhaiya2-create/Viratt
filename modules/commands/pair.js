@@ -92,8 +92,12 @@ module.exports = {
       const randomMatch = potentialMatches[Math.floor(Math.random() * potentialMatches.length)];
       const matchPercentage = Math.floor(Math.random() * 40) + 60; // Random percentage 60-99%
 
-      // Get random pair image from cache folder
-      const pairImagesPath = path.join(__dirname, 'cache', 'pairs');
+      // Select background folder based on sender's gender:
+      // Male sender → male romantic backgrounds
+      // Female sender or hidden/unknown gender → female romantic backgrounds
+      const bgFolder = (senderGender === 2 || senderGender === 'MALE') ? 'male' : 'female';
+      const pairImagesPath = path.join(__dirname, 'cache', 'pairs', bgFolder);
+
       const pairImages = fs.readdirSync(pairImagesPath).filter(file => 
         file.endsWith('.png') || file.endsWith('.gif') || file.endsWith('.jpg')
       );
@@ -473,4 +477,3 @@ function cleanupFiles(files) {
     });
   }, 5000); // Clean up after 5 seconds
 }
-
